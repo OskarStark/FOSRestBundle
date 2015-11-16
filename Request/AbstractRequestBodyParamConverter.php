@@ -27,6 +27,8 @@ use JMS\Serializer\SerializerInterface;
 
 /**
  * @author Tyler Stroud <tyler@tylerstroud.com>
+ *
+ * @deprecated since 1.7, to be removed in 2.0.
  */
 abstract class AbstractRequestBodyParamConverter implements ParamConverterInterface
 {
